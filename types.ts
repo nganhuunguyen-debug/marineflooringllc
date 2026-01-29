@@ -1,4 +1,3 @@
-
 export type ProjectSystem = 'biodeck' | 'syndeck';
 
 export interface Product {
@@ -14,9 +13,4 @@ export interface CalculationResult {
   productId: string;
   units: number;
   exactValue: number;
-}
-
-export interface ChatMessage {
-  role: 'user' | 'model';
-  content: string;
 }
