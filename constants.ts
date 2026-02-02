@@ -118,3 +118,46 @@ export const SYNDECK_PRODUCTS: Product[] = [
     description: 'High-gloss clear finish coat.'
   }
 ];
+
+export const ARKANSAS_PRODUCTS: Product[] = [
+  {
+    id: 'ark-bond',
+    name: 'Dex-o-tex Bond Coat',
+    sqftPerUnit: 300,
+    unitLabel: 'Box',
+    color: 'bg-blue-700',
+    description: 'Dex-o-tex high-performance bond coat.'
+  },
+  {
+    id: 'ark-underlayment',
+    name: 'Dex-o-tex Underlayment',
+    sqftPerUnit: 20,
+    unitLabel: 'Unit',
+    color: 'bg-slate-500',
+    description: 'Dex-o-tex structural underlayment.'
+  },
+  {
+    id: 'ark-grout',
+    name: 'Sherman Williams Grout',
+    sqftPerUnit: 50,
+    unitLabel: 'Box',
+    color: 'bg-emerald-700',
+    description: 'Sherman Williams heavy-duty grout.'
+  },
+  {
+    id: 'ark-sealer',
+    name: 'Sherman Williams Clear Sealer',
+    sqftPerUnit: 100,
+    unitLabel: 'Box',
+    color: 'bg-sky-500',
+    description: 'Sherman Williams protective clear sealer.'
+  },
+  {
+    id: 'ark-terrazzo',
+    name: 'One Step Expoxy Decking Terrazzo',
+    sqftPerUnit: 15,
+    unitLabel: 'Bucket',
+    color: 'bg-purple-600',
+    description: 'One Step Epoxy Decking Terrazzo finish.'
+  }
+];

@@ -1,0 +1,32 @@
+-----BioDeck----- 
+Bond = 200 square feet per Box
+Butter Resin = 60 square feet per Box
+Butter Bag = 30 square feet per Bag
+Grout = 50 sqare feet per Box
+Midnight Blue = 160 square feet per Box
+Color Flakes = 250 square feet per Box
+Water Sealer = 100 square feet per Box
+
+-----Terrazzo-----
+Starlight Blue = 15 square feet per Can
+Antigo Brown = 15 square feet per Can
+
+-----SynDeck-----
+Underlayment 1259 = 40 square feet per Box
+1290 = 40 square feet per Box
+Bond = 
+Super Sealant (Grout) = 46 square feet per Box
+Midnight Blue = 160 square feet per Box
+Color Flakes = 250 square feet per Box
+5000 Clear = 56 square feet per Box
+
+-----686 Arkansas-----
+Dex-o-tex Bond Coat = 300 square feet per Box
+Dex-o-tex Underlayment = 20 square feet per Unit
+Sherman Williams Grout = 50 square feet per Box
+Sherman Williams Clear Sealer = 100 square feet per Box
+One Step Expoxy Decking Terrazzo = 15 square feet per Bucket
+
+-----EGS-----
+1 EGS-Lonmat roll has 3 feet wide, and do-not-know feet long.
+
