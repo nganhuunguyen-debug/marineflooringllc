@@ -5,7 +5,7 @@ export const BIODECK_PRODUCTS: Product[] = [
   {
     id: 'bond',
     name: 'Bond',
-    sqftPerUnit: 200,
+    sqftPerUnit: 300,
     unitLabel: 'Box',
     color: 'bg-blue-600',
     description: 'Primary bonding agent for structural integrity.'
@@ -13,7 +13,7 @@ export const BIODECK_PRODUCTS: Product[] = [
   {
     id: 'butter-resin',
     name: 'Butter Resin',
-    sqftPerUnit: 60,
+    sqftPerUnit: 40,
     unitLabel: 'Box',
     color: 'bg-amber-500',
     description: 'Smooth resin coating for aesthetic finish.'
@@ -21,7 +21,7 @@ export const BIODECK_PRODUCTS: Product[] = [
   {
     id: 'butter-bag',
     name: 'Butter Bag',
-    sqftPerUnit: 30,
+    sqftPerUnit: 40,
     unitLabel: 'Bag',
     color: 'bg-amber-700',
     description: 'Thickening additive for resin applications.'
@@ -29,7 +29,7 @@ export const BIODECK_PRODUCTS: Product[] = [
   {
     id: 'grout',
     name: 'Grout',
-    sqftPerUnit: 50,
+    sqftPerUnit: 200,
     unitLabel: 'Box',
     color: 'bg-gray-600',
     description: 'Heavy-duty filling for joints and cracks.'
@@ -37,7 +37,7 @@ export const BIODECK_PRODUCTS: Product[] = [
   {
     id: 'midnight-blue',
     name: 'Midnight Blue',
-    sqftPerUnit: 160,
+    sqftPerUnit: 240,
     unitLabel: 'Box',
     color: 'bg-indigo-900',
     description: 'Deep pigment colorant for deck surfaces.'
@@ -53,7 +53,7 @@ export const BIODECK_PRODUCTS: Product[] = [
   {
     id: 'water-sealer',
     name: 'Water Sealer',
-    sqftPerUnit: 100,
+    sqftPerUnit: 200,
     unitLabel: 'Box',
     color: 'bg-cyan-500',
     description: 'Final protective layer against moisture.'
@@ -63,7 +63,7 @@ export const BIODECK_PRODUCTS: Product[] = [
 export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-underlayment-1259',
-    name: 'Underlayment 1259',
+    name: '1290 Underlayment Resin',
     sqftPerUnit: 40,
     unitLabel: 'Box',
     color: 'bg-slate-500',
@@ -71,7 +71,7 @@ export const SYNDECK_PRODUCTS: Product[] = [
   },
   {
     id: 'syn-1290',
-    name: '1290 Underlayment',
+    name: '1290 Underlayment Sand',
     sqftPerUnit: 40,
     unitLabel: 'Box',
     color: 'bg-slate-700',
@@ -80,15 +80,15 @@ export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-bond',
     name: 'Bond',
-    sqftPerUnit: 200,
+    sqftPerUnit: 240,
     unitLabel: 'Box',
     color: 'bg-blue-600',
     description: 'Standard bonding agent.'
   },
   {
     id: 'syn-grout',
-    name: 'Super Sealant (Grout)',
-    sqftPerUnit: 46,
+    name: 'Super Sealant 1259 (Grout)',
+    sqftPerUnit: 240,
     unitLabel: 'Box',
     color: 'bg-emerald-600',
     description: 'Superior joint sealant and grout.'
@@ -96,7 +96,7 @@ export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-midnight-blue',
     name: 'Midnight Blue',
-    sqftPerUnit: 160,
+    sqftPerUnit: 240,
     unitLabel: 'Box',
     color: 'bg-indigo-900',
     description: 'Deep marine blue pigment.'
@@ -112,7 +112,7 @@ export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-5000-clear',
     name: '5000 Clear',
-    sqftPerUnit: 56,
+    sqftPerUnit: 240,
     unitLabel: 'Box',
     color: 'bg-sky-400',
     description: 'High-gloss clear finish coat.'
@@ -131,7 +131,7 @@ export const ARKANSAS_PRODUCTS: Product[] = [
   {
     id: 'ark-underlayment',
     name: 'Dex-o-tex Underlayment',
-    sqftPerUnit: 20,
+    sqftPerUnit: 27,
     unitLabel: 'Unit',
     color: 'bg-slate-500',
     description: 'Dex-o-tex structural underlayment.'
@@ -139,7 +139,7 @@ export const ARKANSAS_PRODUCTS: Product[] = [
   {
     id: 'ark-grout',
     name: 'Sherman Williams Grout',
-    sqftPerUnit: 50,
+    sqftPerUnit: 160,
     unitLabel: 'Box',
     color: 'bg-emerald-700',
     description: 'Sherman Williams heavy-duty grout.'
@@ -147,7 +147,7 @@ export const ARKANSAS_PRODUCTS: Product[] = [
   {
     id: 'ark-sealer',
     name: 'Sherman Williams Clear Sealer',
-    sqftPerUnit: 100,
+    sqftPerUnit: 250,
     unitLabel: 'Box',
     color: 'bg-sky-500',
     description: 'Sherman Williams protective clear sealer.'
@@ -155,7 +155,7 @@ export const ARKANSAS_PRODUCTS: Product[] = [
   {
     id: 'ark-terrazzo',
     name: 'One Step Expoxy Decking Terrazzo',
-    sqftPerUnit: 15,
+    sqftPerUnit: 50,
     unitLabel: 'Bucket',
     color: 'bg-purple-600',
     description: 'One Step Epoxy Decking Terrazzo finish.'
