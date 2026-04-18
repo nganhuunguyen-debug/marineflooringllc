@@ -296,7 +296,7 @@ const App: React.FC = () => {
                         </div>
                         <div className="text-right shrink-0 ml-4">
                           <div className={`font-black text-blue-700 leading-none ${typeof res.units === 'string' && res.units.includes('-') ? 'text-2xl mt-1' : 'text-3xl'}`}>{res.units}</div>
-                          <div className="text-[9px] font-black text-gray-400 uppercase mt-0.5">{product.unitLabel}s</div>
+                          <div className="text-[9px] font-black text-gray-400 uppercase mt-0.5">{product.unitLabel === 'Box' ? 'Boxes' : `${product.unitLabel}s`}</div>
                         </div>
                       </div>
                     );
