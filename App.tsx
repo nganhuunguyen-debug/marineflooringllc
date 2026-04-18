@@ -60,11 +60,27 @@ const App: React.FC = () => {
     if (system === 'egs') return [];
     const numValue = parseFloat(sqft);
     if (!isNaN(numValue) && numValue > 0) {
-      return currentProducts.map(product => ({
-        productId: product.id,
-        units: Math.ceil(numValue / product.sqftPerUnit),
-        exactValue: numValue / product.sqftPerUnit
-      }));
+      return currentProducts.map(product => {
+        let units: number | string;
+        let exactValue: number | [number, number];
+        
+        if (Array.isArray(product.sqftPerUnit)) {
+          const [minCoverage, maxCoverage] = product.sqftPerUnit;
+          const minUnits = Math.ceil(numValue / maxCoverage);
+          const maxUnits = Math.ceil(numValue / minCoverage);
+          units = minUnits === maxUnits ? minUnits : `${minUnits}-${maxUnits}`;
+          exactValue = [numValue / maxCoverage, numValue / minCoverage];
+        } else {
+          units = Math.ceil(numValue / product.sqftPerUnit);
+          exactValue = numValue / product.sqftPerUnit;
+        }
+
+        return {
+          productId: product.id,
+          units,
+          exactValue
+        };
+      });
     }
     return [];
   }, [sqft, currentProducts, system]);
@@ -275,11 +291,11 @@ const App: React.FC = () => {
                           </div>
                           <div className="flex-1 min-w-0">
                             <h3 className="font-black text-gray-800 text-[13px] leading-tight uppercase break-words">{product.name}</h3>
-                            <p className="text-[9px] text-gray-400 font-bold uppercase mt-0.5">Rate: 1 per {product.sqftPerUnit} ft²</p>
+                            <p className="text-[9px] text-gray-400 font-bold uppercase mt-0.5">Rate: 1 per {Array.isArray(product.sqftPerUnit) ? `${product.sqftPerUnit[0]}-${product.sqftPerUnit[1]}` : product.sqftPerUnit} ft²</p>
                           </div>
                         </div>
                         <div className="text-right shrink-0 ml-4">
-                          <div className="text-3xl font-black text-blue-700 leading-none">{res.units}</div>
+                          <div className={`font-black text-blue-700 leading-none ${typeof res.units === 'string' && res.units.includes('-') ? 'text-2xl mt-1' : 'text-3xl'}`}>{res.units}</div>
                           <div className="text-[9px] font-black text-gray-400 uppercase mt-0.5">{product.unitLabel}s</div>
                         </div>
                       </div>

@@ -64,7 +64,7 @@ export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-underlayment-1259',
     name: '1290 Underlayment Resin',
-    sqftPerUnit: 40,
+    sqftPerUnit: [36, 40],
     unitLabel: 'Box',
     color: 'bg-slate-500',
     description: 'High-performance marine underlayment.'
@@ -72,7 +72,7 @@ export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-1290',
     name: '1290 Underlayment Sand',
-    sqftPerUnit: 40,
+    sqftPerUnit: [36, 40],
     unitLabel: 'Box',
     color: 'bg-slate-700',
     description: 'Specialized surfacing underlayment.'
@@ -80,7 +80,7 @@ export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-bond',
     name: 'Bond',
-    sqftPerUnit: 240,
+    sqftPerUnit: [120, 200],
     unitLabel: 'Box',
     color: 'bg-blue-600',
     description: 'Standard bonding agent.'
@@ -88,7 +88,7 @@ export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-grout',
     name: 'Super Sealant 1259 (Grout)',
-    sqftPerUnit: 240,
+    sqftPerUnit: [120, 190],
     unitLabel: 'Box',
     color: 'bg-emerald-600',
     description: 'Superior joint sealant and grout.'
@@ -96,7 +96,7 @@ export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-midnight-blue',
     name: 'Midnight Blue',
-    sqftPerUnit: 240,
+    sqftPerUnit: [120, 200],
     unitLabel: 'Box',
     color: 'bg-indigo-900',
     description: 'Deep marine blue pigment.'
@@ -104,7 +104,7 @@ export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-flakes',
     name: 'Color Flakes',
-    sqftPerUnit: 250,
+    sqftPerUnit: [200, 250],
     unitLabel: 'Box',
     color: 'bg-pink-500',
     description: 'Decorative anti-slip flakes.'
@@ -112,7 +112,7 @@ export const SYNDECK_PRODUCTS: Product[] = [
   {
     id: 'syn-5000-clear',
     name: '5000 Clear',
-    sqftPerUnit: 240,
+    sqftPerUnit: [120, 200],
     unitLabel: 'Box',
     color: 'bg-sky-400',
     description: 'High-gloss clear finish coat.'
