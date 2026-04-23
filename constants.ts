@@ -87,8 +87,8 @@ export const SYNDECK_PRODUCTS: Product[] = [
   },
   {
     id: 'syn-grout',
-    name: 'Super Sealant 1259 (Grout)',
-    sqftPerUnit: [120, 190],
+    name: 'Super Sealer 1259 (Grout)',
+    sqftPerUnit: [76, 86],
     unitLabel: 'Box',
     color: 'bg-emerald-600',
     description: 'Superior joint sealant and grout.'
@@ -110,12 +110,20 @@ export const SYNDECK_PRODUCTS: Product[] = [
     description: 'Decorative anti-slip flakes.'
   },
   {
-    id: 'syn-5000-clear',
-    name: '5000 Clear',
+    id: 'syn-5000-clear-1st',
+    name: '5000 Clear 1st Sealcoat',
     sqftPerUnit: [120, 200],
     unitLabel: 'Box',
     color: 'bg-sky-400',
-    description: 'High-gloss clear finish coat.'
+    description: 'High-gloss clear finish coat (1st layer).'
+  },
+  {
+    id: 'syn-5000-clear-2nd',
+    name: '5000 Clear 2nd Sealcoat',
+    sqftPerUnit: [240, 400],
+    unitLabel: 'Box',
+    color: 'bg-sky-300',
+    description: 'High-gloss clear finish coat (2nd layer).'
   }
 ];
 
